@@ -1,0 +1,137 @@
+
+/*------------------Outline alignment-----------*/
+.size{
+		width:1160px;
+		height:840px;
+		margin:auto;
+		padding:10px;
+		background-color:purple;
+}
+.first{
+		height:70px;
+		width:1158px;
+		}
+.second{
+		height:200px;
+		width:1158px;
+		background-image:linear-gradient(to right ,white,#cbf4f7);
+		text-align:center;
+		border-radius:10px;
+		}
+.body{
+		width:200px;
+		height:400px;
+		background-color:purple;
+		position:relative;
+		bottom:529px;	
+		left:87px;	
+		
+}
+.body2{
+		width:958px;
+		height:400px;
+		position:relative;
+		left:200px;
+		bottom:500px;
+	}
+
+select{
+	font-size:17px;
+	position:relative;
+	left:900px;
+	border:none;
+	border-radius:20px;
+	color:white;
+	background-color:purple;
+	}
+		
+/*--------------------Body CSS--------------------------------*/
+label{
+	font-size:20px;
+	position:relative;
+	left:890px;
+	}
+table{
+		height:400px;
+		width:200px;
+		text-align:center;
+		}
+td{
+	background-color:#cbf4f7;
+	border-bottom-right-radius:25px;
+	border-top-left-radius:25px;
+}
+.after::after{
+	content:"\201D";
+	font-size:25px;
+	color:purple;
+	}
+.before::before{
+	content:"\201C";
+	font-size:25px;
+	color:purple;
+	}
+.o{
+	color:grey;
+	font-style:italic;
+}
+iframe{
+		width:958px;
+		height:500px;
+		background-color:purple;
+		position:relative;
+		left:87px;
+		bottom:429px;
+		}
+.fp{
+	font-size:30px;
+	font-family:Comic Sans MS;
+	}
+.h{		
+		padding:25px 40px;
+		background-color:#cbf4f7;
+		text-decoration:none;
+		font-size:20px;
+		color:black;
+		border-bottom-right-radius:25px;
+		border-top-left-radius:25px;
+		}
+.h:hover{
+		color:red;
+}
+.h:active{
+		color:purple;
+}	
+.l{
+	font-size:40px;
+	position:relative;
+	top:-110px;
+	left:70px;
+	}
+.design{
+		height:200px;
+		width:200px;
+		position:relative;
+		left:900px;
+		top:-191px;
+		}
+span{
+		color:white;
+		font-style:italic;
+	}
+/*-----------------------------Footer CSS--------------------------*/
+.foot{
+		height:25px;
+		width:1158px;
+		position:relative;
+		bottom:830px;
+		left:87px;
+		display:flex;
+		justify-content:space-around;
+		border-radius:5px;
+		}
+.fi{
+		height:30px;
+		width:35px;
+		
+}

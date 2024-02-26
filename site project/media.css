@@ -1,0 +1,11 @@
+table{
+		background-color:blue;
+		width:600px;
+		height:60px;
+		color:white;
+		text-align:center;
+		
+		}
+@media only screen and max-width:900px){
+	table{
+			
